@@ -2,13 +2,18 @@
 
 header {
 
-        .custom-layout(column ,center, center);
-        background-color: @nav-bg;
-    
+    .custom-layout(column ,center, center);
+    background-color: @nav-bg;
+
+    //Fixed header
+    position: fixed;
+    width: 100%;
+    transition: .5s;
+
     h1 {
         padding: 2% 0%;
     } //end h1
-    
+
     nav {   
             text-align: center;
             padding-bottom: 1%;
